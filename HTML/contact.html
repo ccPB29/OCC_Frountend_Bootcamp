@@ -8,17 +8,17 @@
   <form>
     <div>
       <label for="name">Name:</label>
-	  <input type="text" name="name">
+	  <input type="text" name="name" pattern="[A-Za-z]{1,5}" title="no more 5.">
     </div>
 
     <div>
       <label for="email">Email:</label>
-	  <input type="email" name="name">
+	  <input type="email" name="name" placeholder="do not fill this." required oninvalid="this.setCustomValidity('lol.')">
     </div>
 
     <div>
       <label for="message">Message:</label>
-	  <input type="" name="name" width="20" height="4">
+	  <textarea name="message"></textarea>
     </div>
 
     <div>
@@ -28,28 +28,34 @@
 
     <div>
       <label for="phone">Phone:</label>
-	  <input type="number" name="name">
+	  <input type="tel" name="name">
     </div>
 
     <div>
       <label for="priority">Priority:</label> 
       <!-- low, medium, high -->
-	  <option "low" value="low">
+      <select name="priority">
+	  <option value="low">low</option>
+    <option value="medium">medium</option>
+    <option value="high">high</option>
+  </select>
     </div>
 
     <div>
       <label>Newsletter Subscription:</label>
-	  <input type=radio >
-		<label>Yes:</label>
-		<radio >
+		  <label>Yes:</label>
+      <input type=radio value="yes" name="sub" checked>
 			<label>No:</label>
+      <input type=radio value="no" name="sub">
     </div>
 
     <div>
       <label>Gender:</label>
-	  <option "low" value="Female"></option>
+    <select>
+      <option value="Female">Female</option>
+      <option value="Male">Male</option>
+    </select>
     </div>
-
     <button type="submit">Submit</button>
   </form>
 </body>
