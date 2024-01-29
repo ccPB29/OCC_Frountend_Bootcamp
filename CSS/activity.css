@@ -1,0 +1,49 @@
+header{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    text-align: center;
+}
+
+main{
+    font-family:Microsoft JhengHei;
+}
+
+.a1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: underline;
+    text-shadow: 2px 2px 2px rgba(255,0, 0, 0.2);
+}
+
+.a2{
+    font-style: italic;
+    font-size:13px;
+    text-decoration: underline;
+}
+
+.a3{
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    margin-bottom: 18px;
+}
+
+.a4{
+    font-size: 13px;
+}
+
+.a5{
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: small;
+    display: block;
+    margin: 20px;
+}
+
+footer{
+    text-align: center;
+    text-decoration:line-through;
+    font-size: 13px;
+}
